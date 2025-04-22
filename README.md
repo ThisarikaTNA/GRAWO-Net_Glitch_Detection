@@ -11,7 +11,7 @@ The GAN is trained in progressive stages up to 250 epochs with dropout regulariz
 This repository contains four main scripts: GAN training, image generation + evaluation, CNN training, and classifier testing. It is designed for Google Colab with Google Drive integration. Results include balanced class distributions, improved classification, and interpretable visualizations.For reproducibility, model checkpoints and generated samples are saved at defined epochs. The final generator and trained classifier are included for direct evaluation and reuse.
 
 ## Download Pretrained Models
-The following pretrained models are too large for direct upload to GitHub, so they are hosted on Google Drive.
+The trained models are too large for direct upload to GitHub, so they are hosted on Google Drive.
 To download them, run:
 ```bash
 pip install gdown
