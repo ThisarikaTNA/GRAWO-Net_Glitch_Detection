@@ -5,7 +5,7 @@ GRAWO-Net is a deep learning framework designed to improve the classification of
 
 The dataset used is the Gravity Spy dataset, which contains labeled spectrograms from the LIGO detectors.
 - **Gravity Spy Dataset**: [Zooniverse LIGO Project](https://www.zooniverse.org/projects/zooniverse/gravity-spy)
- We exclude the "None_of_the_Above" class during GAN training and use it later for anomaly detection tests.
+-We exclude the "None_of_the_Above" class during GAN training and use it later for anomaly detection tests.
 
 The GAN is trained in progressive stages up to 250 epochs with dropout regularization, spectral normalization, and an Exponential Moving Average (EMA) generator. We evaluate the GAN using Frechet Inception Distance (FID) and t-SNE visualizations.The CNN classifier is trained on real data and later evaluated on a combined dataset of real and synthetic images. Performance metrics include accuracy, F1 score, AUC-ROC, confusion entropy (CEN), and false alarm rate (FAR). ROC-based confidence filtering is also implemented.
 
